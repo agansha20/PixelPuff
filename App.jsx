@@ -8,22 +8,19 @@ import Product from './Components/Product.jsx';
 import Cart from './Components/Cart.jsx';
 
 function App() {
-  
   return (
-    <>
-    <BrowserRouter>
-     <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/shop" element={<Shop />} />
-      <Route path="/categories" element={<Categories />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/product" element={<Product />} />
-      <Route path="/cart" element={<Cart />} />
+    <BrowserRouter basename="/PixelPuff">
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/categories" element={<Categories />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </BrowserRouter>
-    </>
-  )
+  );
 }
 
 export default App;
