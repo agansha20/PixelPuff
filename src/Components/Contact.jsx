@@ -96,7 +96,7 @@ function Contact() {
 
           <p>📞 +91 98765 43210</p>
 
-          <p>📧 support@pixelpuff.com</p>
+          <p>📧 supportpixelpuff@gmail.com</p>
 
           <p>🕒 Mon - Sat : 9 AM - 7 PM</p>
 
